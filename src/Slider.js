@@ -20,7 +20,7 @@ class ScaleSlider extends React.Component{
     render () {
         const {scale} = this.state;
         return (
-            <div>
+            <div className='conta'>
                 <div>
                     <input type="range" step={0.01} min={1} max={2} value={scale} onChange={this.onChange}/>
                     {scale}
